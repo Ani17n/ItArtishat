@@ -1,0 +1,20 @@
+.cub {
+  position: absolute;
+  left: -500px;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  transition: all ease-in 0.3s;
+
+  &.visible{
+    left: 50%;
+  }
+}
+
+.figure {
+  height: 1500px;
+  width: 100%;
+  background-color: lightblue;
+  border: 5px solid black;
+}
+

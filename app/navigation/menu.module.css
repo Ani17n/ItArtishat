@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 15px;
+  padding: 0px 20px;
+  background-color: black;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.text {
+  width: 500px;
+  display: none;
+}
+
+.text.show {
+  display: block;
+}

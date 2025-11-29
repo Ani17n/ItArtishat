@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto Slab", serif;
+        }
+
+        form {
+            border-radius: 5px;
+            border: 2px solid;
+            width: 500px;
+            height: 500px;
+            text-align: center;
+        }
+
+        select {
+            height: 25px;
+            width: 85%;
+        }
+
+        button {
+            width: 90%;
+            height: 30px;
+            background-color: green;
+            color: aliceblue;
+            border: none;
+            border-radius: 10px;
+        }
+
+        input {
+            width: 85%;
+            height: 25px;
+        }
+
+        h2 {
+            color: green;
+        }
+    </style>
+</head>
+
+<body style="text-align: center;">
+    <form>
+        <h2>Registration Form</h2>
+        <p>First name:</p>
+        <input type="text">
+        <p>Last name:</p>
+        <input type="text">
+        <p>Email:</p>
+        <input type="email">
+        <p>Password:</p>
+        <input type="password">
+        <p>Re-type Password:</p>
+        <input type="password">
+        <p>Contact</p>
+        <input type="text"><br>
+        <p>Gender</p>
+        <select>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br><br>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

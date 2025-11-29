@@ -1,0 +1,24 @@
+.acc_item{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    h2{
+        width: 100%;
+        height: 30px;
+        background-color: aqua;
+
+    }
+
+    .description{
+        width: 100%;
+        height: 0px;
+        overflow: hidden;
+        transition: 0.5s;
+        &.show{
+            height: 150px;
+        }
+    }
+}

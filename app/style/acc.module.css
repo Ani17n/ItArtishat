@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  gap: 20px;
+}
+.list {
+  display: flex;
+}
+.card {
+  width: 250px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.compare {
+  font-size: 38px;
+  color: black;
+}
+
+.compare.add {
+  color: red;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 45;
+  background-color: aqua;
+  top: 0px;
+}
+
+.modal.open {
+  display: flex;
+}

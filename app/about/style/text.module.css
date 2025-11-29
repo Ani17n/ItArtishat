@@ -1,0 +1,27 @@
+/* .list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.box {
+  width: 300px;
+  border: 1px solid green;
+  background-color: black;
+}
+
+.box h2 {
+  color: green;
+  margin: 5px;
+}
+
+.box h3 {
+  margin: 5px;
+  color: white;
+}
+
+.box p {
+  margin: 5px;
+  color: white;
+} */
